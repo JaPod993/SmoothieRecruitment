@@ -5,7 +5,7 @@ html, body {
   background: white;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  color: #28292B;
+  color: #141517;
   font-size: 16px;
 }
 
@@ -13,7 +13,7 @@ html, body {
 input:focus,
 a:focus {
   outline: none;
-  box-shadow: 0 0 0 0.08rem #F3902C;
+  box-shadow: 0 0 0 0.08rem #FF9E3C;
 }
 
 /* line 69, ../scss/_main.scss */
@@ -56,7 +56,7 @@ h4 {
 .p-grey {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  color: #707070;
+  color: #4b4b4b;
   margin: 10px 0;
 }
 
@@ -69,7 +69,7 @@ h4 {
 
 /* line 110, ../scss/_main.scss */
 .btn {
-  border: 1px solid #707070;
+  border: 1px solid #4b4b4b;
   border-radius: 8px;
   padding: 10px;
   margin: 0 5px;
@@ -83,9 +83,9 @@ h4 {
 }
 /* line 120, ../scss/_main.scss */
 .btn:hover {
-  background: #F3902C;
+  background: #FF9E3C;
   color: white;
-  border: 1px solid #F3902C;
+  border: 1px solid #FF9E3C;
 }
 
 /* line 127, ../scss/_main.scss */
@@ -105,9 +105,9 @@ h4 {
 }
 /* line 139, ../scss/_main.scss */
 .btn--form:hover {
-  background: #F3902C;
+  background: #FF9E3C;
   color: white;
-  border: 4px solid #F3902C;
+  border: 4px solid #FF9E3C;
 }
 
 /* line 146, ../scss/_main.scss */
@@ -173,12 +173,12 @@ h4 {
 
 /* line 194, ../scss/_main.scss */
 .menu__link {
-  color: #707070;
+  color: #4b4b4b;
   text-decoration: none;
   margin-bottom: 8px;
-  background-image: -webkit-linear-gradient(top, transparent 0, #F3902C 0);
-  background-image: -o-linear-gradient(top, transparent 0, #F3902C 0);
-  background-image: linear-gradient(to bottom, transparent 0, #F3902C 0);
+  background-image: -webkit-linear-gradient(top, transparent 0, #FF9E3C 0);
+  background-image: -o-linear-gradient(top, transparent 0, #FF9E3C 0);
+  background-image: linear-gradient(to bottom, transparent 0, #FF9E3C 0);
   -webkit-transition: all .1s ease-out;
   -o-transition: all .1s ease-out;
   transition: all .1s ease-out;
@@ -243,7 +243,7 @@ h4 {
   width: 100%;
   background: white;
   border: 4px solid #F5CFCA;
-  color: #707070;
+  color: #4b4b4b;
   padding: 10px 130px 10px 10px;
   border-radius: 8px;
   -webkit-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.05);

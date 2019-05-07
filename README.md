@@ -4,7 +4,7 @@ Smoothie Delight is a simple one page project for recruitment purposes
 
 ## Live version
 
-link
+https://japod993.github.io/SmoothieRecruitment/
 
 ## Built With
 
