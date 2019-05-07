@@ -19,11 +19,11 @@ https://japod993.github.io/SmoothieRecruitment/
 
 ### SEO
 
-#### What i did:
+#### What I did:
 * I made sure that this page is written semantically correct.
 * I've added all necessary meta tags.
 * I've made sure that page load is fast enough. (compressed images, static files cache)
-* 
+
 #### What else to do:
 * Implement lazyloading using intersection observer (even faster page load)
 * Use "picture" tag for more responsive images
@@ -34,7 +34,7 @@ https://japod993.github.io/SmoothieRecruitment/
 
 ### Accessibility
 
-#### What i did:
+#### What I did:
 * I've used Lighthouse audit to make sure my site is accessibility friendly.
 * All interface elements are visible and focusable.
 * All links, buttons, forms and images have visible names, titles and alt attributes.
