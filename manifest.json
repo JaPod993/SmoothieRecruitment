@@ -6,8 +6,8 @@
   "display": "fullscreen",
   "orientation": "portrait",
   "description": "Smoothie Delight is a simple one page project for recruitment purposes",
-  "Scope": "/",
-  "start_url": "/",
+  "Scope": "/SmoothieRecruitment/",
+  "start_url": "/SmoothieRecruitment/",
   "icons": [
     {
       "src": "/SmoothieRecruitment/images/icons/sd_icon_72.png",
