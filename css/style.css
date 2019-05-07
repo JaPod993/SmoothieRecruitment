@@ -197,3 +197,16 @@ h4 {
 .benefits_icons {
   padding: 15px 0;
 }
+
+/* line 199, ../scss/_main.scss */
+.experience {
+  padding: 50px 0;
+}
+
+/* line 203, ../scss/_main.scss */
+.experience__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

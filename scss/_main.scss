@@ -195,3 +195,12 @@ h4 {
 .benefits_icons {
   padding: 15px 0;
 }
+
+.experience {
+  padding: 50px 0;
+}
+
+.experience__info {
+  @include flexVerticalCenter;
+  text-align: center;
+}
