@@ -118,6 +118,19 @@ h4 {
   color: white;
 }
 
+.btn--form {
+  border: 4px solid $accent;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  &:hover {
+    background: $hover;
+    color: white;
+    border: 4px solid $hover;
+  }
+}
+
 .txt-l {
   text-align: left;
 }
@@ -216,6 +229,7 @@ h4 {
   color: $txtGrey;
   padding: 10px 130px 10px 10px;
   border-radius: 8px;
+
 }
 
 .newsletter {

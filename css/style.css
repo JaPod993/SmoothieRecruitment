@@ -89,48 +89,63 @@ h4 {
 }
 
 /* line 121, ../scss/_main.scss */
+.btn--form {
+  border: 4px solid #FFB76E;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 127, ../scss/_main.scss */
+.btn--form:hover {
+  background: #F3902C;
+  color: white;
+  border: 4px solid #F3902C;
+}
+
+/* line 134, ../scss/_main.scss */
 .txt-l {
   text-align: left;
 }
 
-/* line 125, ../scss/_main.scss */
+/* line 138, ../scss/_main.scss */
 .txt-r {
   text-align: right;
 }
 
-/* line 129, ../scss/_main.scss */
+/* line 142, ../scss/_main.scss */
 .txt-c {
   text-align: center;
 }
 
-/* line 133, ../scss/_main.scss */
+/* line 146, ../scss/_main.scss */
 .no-pad {
   padding: 0;
 }
 
-/* line 137, ../scss/_main.scss */
+/* line 150, ../scss/_main.scss */
 .no-pad-l {
   padding-left: 0;
 }
 
-/* line 141, ../scss/_main.scss */
+/* line 154, ../scss/_main.scss */
 .no-pad-r {
   padding-right: 0;
 }
 
-/* line 145, ../scss/_main.scss */
+/* line 158, ../scss/_main.scss */
 .img-center {
   display: block;
   margin: 0 auto;
 }
 
-/* line 150, ../scss/_main.scss */
+/* line 163, ../scss/_main.scss */
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
 
-/* line 156, ../scss/_main.scss */
+/* line 169, ../scss/_main.scss */
 .navigation {
   height: 80px;
   display: flex;
@@ -138,18 +153,18 @@ h4 {
   justify-content: center;
 }
 
-/* line 161, ../scss/_main.scss */
+/* line 174, ../scss/_main.scss */
 .menu__list {
   list-style-type: none;
   padding-left: 0;
 }
-/* line 164, ../scss/_main.scss */
+/* line 177, ../scss/_main.scss */
 .menu__list .list__item {
   display: inline-block;
   padding-left: 10px;
 }
 
-/* line 170, ../scss/_main.scss */
+/* line 183, ../scss/_main.scss */
 .menu__link {
   color: #707070;
   text-decoration: none;
@@ -169,41 +184,41 @@ h4 {
   background-position: 0 15px;
 }
 
-/* line 177, ../scss/_main.scss */
+/* line 190, ../scss/_main.scss */
 .hero__desktop {
   display: none;
 }
 
-/* line 181, ../scss/_main.scss */
+/* line 194, ../scss/_main.scss */
 .header {
   padding-bottom: 20px;
 }
 
-/* line 185, ../scss/_main.scss */
+/* line 198, ../scss/_main.scss */
 .header__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-/* line 189, ../scss/_main.scss */
+/* line 202, ../scss/_main.scss */
 .header__p {
   max-width: 650px;
   margin: 10px auto 15px;
 }
 
-/* line 194, ../scss/_main.scss */
+/* line 207, ../scss/_main.scss */
 .benefits__header,
 .benefits_icons {
   padding: 15px 0;
 }
 
-/* line 199, ../scss/_main.scss */
+/* line 212, ../scss/_main.scss */
 .experience {
   padding: 50px 0;
 }
 
-/* line 203, ../scss/_main.scss */
+/* line 216, ../scss/_main.scss */
 .experience__info {
   display: flex;
   flex-direction: column;
@@ -211,12 +226,12 @@ h4 {
   text-align: center;
 }
 
-/* line 208, ../scss/_main.scss */
+/* line 221, ../scss/_main.scss */
 .form_inner {
   position: relative;
 }
 
-/* line 212, ../scss/_main.scss */
+/* line 225, ../scss/_main.scss */
 .form__input {
   width: 100%;
   background: white;
@@ -226,7 +241,7 @@ h4 {
   border-radius: 8px;
 }
 
-/* line 221, ../scss/_main.scss */
+/* line 235, ../scss/_main.scss */
 .newsletter {
   padding: 30px 0 40px;
   background: #F6EDE1;
