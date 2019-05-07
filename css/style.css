@@ -13,7 +13,7 @@ html, body {
 input:focus,
 a:focus {
   outline: none;
-  box-shadow: 0 0 0 0.08rem #FF9E3C;
+  box-shadow: 0 0 0 0.08rem #ff7122;
 }
 
 /* line 69, ../scss/_main.scss */
@@ -38,7 +38,7 @@ h3 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: #FFB76E;
+  color: #ec8547;
   text-transform: uppercase;
   margin: 5px 0;
 }
@@ -56,7 +56,7 @@ h4 {
 .p-grey {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  color: #4b4b4b;
+  color: #353535;
   margin: 10px 0;
 }
 
@@ -69,7 +69,7 @@ h4 {
 
 /* line 110, ../scss/_main.scss */
 .btn {
-  border: 1px solid #4b4b4b;
+  border: 1px solid #353535;
   border-radius: 8px;
   padding: 10px;
   margin: 0 5px;
@@ -83,21 +83,21 @@ h4 {
 }
 /* line 120, ../scss/_main.scss */
 .btn:hover {
-  background: #FF9E3C;
+  background: #ff7122;
   color: white;
-  border: 1px solid #FF9E3C;
+  border: 1px solid #ff7122;
 }
 
 /* line 127, ../scss/_main.scss */
 .btn--primary {
-  background: #FFB76E;
-  border: 1px solid #FFB76E;
+  background: #ec8547;
+  border: 1px solid #ec8547;
   color: white;
 }
 
 /* line 133, ../scss/_main.scss */
 .btn--form {
-  border: 4px solid #FFB76E;
+  border: 4px solid #ec8547;
   margin: 0;
   position: absolute;
   top: 0;
@@ -105,9 +105,9 @@ h4 {
 }
 /* line 139, ../scss/_main.scss */
 .btn--form:hover {
-  background: #FF9E3C;
+  background: #ff7122;
   color: white;
-  border: 4px solid #FF9E3C;
+  border: 4px solid #ff7122;
 }
 
 /* line 146, ../scss/_main.scss */
@@ -173,12 +173,12 @@ h4 {
 
 /* line 194, ../scss/_main.scss */
 .menu__link {
-  color: #4b4b4b;
+  color: #353535;
   text-decoration: none;
   margin-bottom: 8px;
-  background-image: -webkit-linear-gradient(top, transparent 0, #FF9E3C 0);
-  background-image: -o-linear-gradient(top, transparent 0, #FF9E3C 0);
-  background-image: linear-gradient(to bottom, transparent 0, #FF9E3C 0);
+  background-image: -webkit-linear-gradient(top, transparent 0, #ff7122 0);
+  background-image: -o-linear-gradient(top, transparent 0, #ff7122 0);
+  background-image: linear-gradient(to bottom, transparent 0, #ff7122 0);
   -webkit-transition: all .1s ease-out;
   -o-transition: all .1s ease-out;
   transition: all .1s ease-out;
@@ -243,7 +243,7 @@ h4 {
   width: 100%;
   background: white;
   border: 4px solid #F5CFCA;
-  color: #4b4b4b;
+  color: #353535;
   padding: 10px 130px 10px 10px;
   border-radius: 8px;
   -webkit-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.05);
