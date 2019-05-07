@@ -308,3 +308,59 @@ h4 {
     background-size: contain;
   }
 }
+@media (min-width: 992px) {
+  /* line 34, ../scss/_responsive.scss */
+  h1 {
+    font-size: 70px;
+    line-height: 60px;
+    margin: 0;
+  }
+
+  /* line 39, ../scss/_responsive.scss */
+  .hero__mobile {
+    display: none;
+  }
+
+  /* line 42, ../scss/_responsive.scss */
+  .hero__desktop {
+    display: block;
+  }
+
+  /* line 45, ../scss/_responsive.scss */
+  .header {
+    padding-bottom: 0;
+  }
+
+  /* line 48, ../scss/_responsive.scss */
+  .experience__p {
+    max-width: 450px;
+  }
+
+  /* line 51, ../scss/_responsive.scss */
+  .experience__info {
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 57, ../scss/_responsive.scss */
+  h1 {
+    font-size: 116px;
+    line-height: 96px;
+    margin: 15px 0 35px;
+  }
+
+  /* line 62, ../scss/_responsive.scss */
+  .header {
+    padding-bottom: 15px;
+  }
+
+  /* line 65, ../scss/_responsive.scss */
+  .experience {
+    padding: 100px 0;
+  }
+
+  /* line 68, ../scss/_responsive.scss */
+  .newsletter {
+    padding: 70px 0 80px;
+  }
+}
