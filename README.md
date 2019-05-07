@@ -37,9 +37,7 @@ https://japod993.github.io/SmoothieRecruitment/
 
 #####What else to do:
 * We could add ARIA labels like role="" 
-* Use "picture" tag for more responsive images
-* Add sitemap.xml
-* Use schema.org meta data (e.g. contact info & all smoothie products )
+* We could use tabindex="" to change importance of focusable elements
 
 ## Author
 
