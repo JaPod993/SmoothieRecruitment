@@ -24,7 +24,10 @@
 }
 
 @media (min-width: 768px) {
-
+  .newsletter {
+    background: url(../images/newsletter_bg_left.svg) left top no-repeat, url(../images/newsletter_bg_right.svg) right top no-repeat, $bg;
+    background-size: contain;
+  }
 }
 
 @media (min-width: 992px) {

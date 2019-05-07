@@ -9,6 +9,7 @@ link
 ## Built With
 
 * [Bootstrap Grid System](https://getbootstrap.com/) - I chose a ready grid system to quickly implement the code
+* [Compass](http://compass-style.org//) - compass for scss compilation
 
 ## Authors
 
