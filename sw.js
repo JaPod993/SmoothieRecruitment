@@ -41,7 +41,7 @@ if (workbox) {
 
 
     workbox.routing.registerRoute(
-        new RegExp('/images'),
+        new RegExp('/SmoothieRecruitment/images'),
         new workbox.strategies.StaleWhileRevalidate()
     );
 
