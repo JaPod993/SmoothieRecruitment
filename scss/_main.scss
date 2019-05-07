@@ -32,6 +32,12 @@ $txtBlack: #28292B;
   justify-content: center;
 }
 
+@mixin accentShadow {
+  -webkit-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
 @mixin linkHover {
   background-image: -webkit-linear-gradient(top, transparent 0, $hover 0);
   background-image: -o-linear-gradient(top, transparent 0, $hover 0);
@@ -52,6 +58,12 @@ html, body {
   @include regular;
   color: $txtBlack;
   font-size: 16px;
+}
+
+input:focus,
+a:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.08rem $hover;
 }
 
 h1 {
@@ -229,7 +241,8 @@ h4 {
   color: $txtGrey;
   padding: 10px 130px 10px 10px;
   border-radius: 8px;
-
+  @include accentShadow;
+  @include transition
 }
 
 .newsletter {
