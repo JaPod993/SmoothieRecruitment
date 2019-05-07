@@ -19,3 +19,47 @@ $txtBlack: #28292B;
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  @include regular;
+  color: $txtBlack;
+  font-size: 16px;
+}
+
+
+.txt-l {
+  text-align: left;
+}
+
+.txt-r {
+  text-align: right;
+}
+
+.txt-c {
+  text-align: center;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.no-pad-l {
+  padding-left: 0;
+}
+
+.no-pad-r {
+  padding-right: 0;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}

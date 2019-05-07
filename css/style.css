@@ -1,0 +1,52 @@
+/* line 23, ../scss/_main.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #28292B;
+  font-size: 16px;
+}
+
+/* line 33, ../scss/_main.scss */
+.txt-l {
+  text-align: left;
+}
+
+/* line 37, ../scss/_main.scss */
+.txt-r {
+  text-align: right;
+}
+
+/* line 41, ../scss/_main.scss */
+.txt-c {
+  text-align: center;
+}
+
+/* line 45, ../scss/_main.scss */
+.no-pad {
+  padding: 0;
+}
+
+/* line 49, ../scss/_main.scss */
+.no-pad-l {
+  padding-left: 0;
+}
+
+/* line 53, ../scss/_main.scss */
+.no-pad-r {
+  padding-right: 0;
+}
+
+/* line 57, ../scss/_main.scss */
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 62, ../scss/_main.scss */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
