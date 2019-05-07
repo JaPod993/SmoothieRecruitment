@@ -9,14 +9,15 @@ html, body {
   font-size: 16px;
 }
 
-/* line 63, ../scss/_main.scss */
+/* line 66, ../scss/_main.scss */
+button:focus,
 input:focus,
 a:focus {
   outline: none;
-  box-shadow: 0 0 0 0.08rem #ff7122;
+  box-shadow: 0 0 0 0.08rem #F94851;
 }
 
-/* line 69, ../scss/_main.scss */
+/* line 72, ../scss/_main.scss */
 h1 {
   font-family: "Bree Serif", sans-serif;
   color: #F94851;
@@ -25,7 +26,7 @@ h1 {
   margin: 0 0 10px;
 }
 
-/* line 77, ../scss/_main.scss */
+/* line 80, ../scss/_main.scss */
 h2 {
   font-family: "Bree Serif", sans-serif;
   font-size: 36px;
@@ -33,7 +34,7 @@ h2 {
   margin: 10px 0;
 }
 
-/* line 84, ../scss/_main.scss */
+/* line 87, ../scss/_main.scss */
 h3 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -43,7 +44,7 @@ h3 {
   margin: 5px 0;
 }
 
-/* line 92, ../scss/_main.scss */
+/* line 95, ../scss/_main.scss */
 h4 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -52,7 +53,7 @@ h4 {
   margin: 5px 0;
 }
 
-/* line 99, ../scss/_main.scss */
+/* line 102, ../scss/_main.scss */
 .p-grey {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -60,14 +61,14 @@ h4 {
   margin: 10px 0;
 }
 
-/* line 105, ../scss/_main.scss */
+/* line 108, ../scss/_main.scss */
 .p-black {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   margin: 10px 0;
 }
 
-/* line 110, ../scss/_main.scss */
+/* line 113, ../scss/_main.scss */
 .btn {
   border: 1px solid #353535;
   background-color: white;
@@ -82,21 +83,21 @@ h4 {
   -o-transition: all .1s ease-out;
   transition: all .1s ease-out;
 }
-/* line 121, ../scss/_main.scss */
+/* line 124, ../scss/_main.scss */
 .btn:hover {
   background: #ff7122;
   color: white;
   border: 1px solid #ff7122;
 }
 
-/* line 128, ../scss/_main.scss */
+/* line 131, ../scss/_main.scss */
 .btn--primary {
   background: #ec8547;
   border: 1px solid #ec8547;
   color: white;
 }
 
-/* line 134, ../scss/_main.scss */
+/* line 137, ../scss/_main.scss */
 .btn--form {
   border: 4px solid #ec8547;
   margin: 0;
@@ -104,56 +105,56 @@ h4 {
   top: 0;
   right: 0;
 }
-/* line 140, ../scss/_main.scss */
+/* line 143, ../scss/_main.scss */
 .btn--form:hover {
   background: #ff7122;
   color: white;
   border: 4px solid #ff7122;
 }
 
-/* line 147, ../scss/_main.scss */
+/* line 150, ../scss/_main.scss */
 .txt-l {
   text-align: left;
 }
 
-/* line 151, ../scss/_main.scss */
+/* line 154, ../scss/_main.scss */
 .txt-r {
   text-align: right;
 }
 
-/* line 155, ../scss/_main.scss */
+/* line 158, ../scss/_main.scss */
 .txt-c {
   text-align: center;
 }
 
-/* line 159, ../scss/_main.scss */
+/* line 162, ../scss/_main.scss */
 .no-pad {
   padding: 0;
 }
 
-/* line 163, ../scss/_main.scss */
+/* line 166, ../scss/_main.scss */
 .no-pad-l {
   padding-left: 0;
 }
 
-/* line 167, ../scss/_main.scss */
+/* line 170, ../scss/_main.scss */
 .no-pad-r {
   padding-right: 0;
 }
 
-/* line 171, ../scss/_main.scss */
+/* line 174, ../scss/_main.scss */
 .img-center {
   display: block;
   margin: 0 auto;
 }
 
-/* line 176, ../scss/_main.scss */
+/* line 179, ../scss/_main.scss */
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
 
-/* line 181, ../scss/_main.scss */
+/* line 184, ../scss/_main.scss */
 .navigation {
   height: 80px;
   display: flex;
@@ -161,18 +162,18 @@ h4 {
   justify-content: center;
 }
 
-/* line 186, ../scss/_main.scss */
+/* line 189, ../scss/_main.scss */
 .menu__list {
   list-style-type: none;
   padding-left: 0;
 }
-/* line 189, ../scss/_main.scss */
+/* line 192, ../scss/_main.scss */
 .menu__list .list__item {
   display: inline-block;
   padding-left: 10px;
 }
 
-/* line 195, ../scss/_main.scss */
+/* line 198, ../scss/_main.scss */
 .menu__link {
   color: #353535;
   text-decoration: none;
@@ -192,41 +193,41 @@ h4 {
   background-position: 0 15px;
 }
 
-/* line 202, ../scss/_main.scss */
+/* line 205, ../scss/_main.scss */
 .hero__desktop {
   display: none;
 }
 
-/* line 206, ../scss/_main.scss */
+/* line 209, ../scss/_main.scss */
 .header {
   padding-bottom: 20px;
 }
 
-/* line 210, ../scss/_main.scss */
+/* line 213, ../scss/_main.scss */
 .header__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-/* line 214, ../scss/_main.scss */
+/* line 217, ../scss/_main.scss */
 .header__p {
   max-width: 650px;
   margin: 10px auto 15px;
 }
 
-/* line 219, ../scss/_main.scss */
+/* line 222, ../scss/_main.scss */
 .benefits__header,
 .benefits_icons {
   padding: 15px 0;
 }
 
-/* line 224, ../scss/_main.scss */
+/* line 227, ../scss/_main.scss */
 .experience {
   padding: 50px 0;
 }
 
-/* line 228, ../scss/_main.scss */
+/* line 231, ../scss/_main.scss */
 .experience__info {
   display: flex;
   flex-direction: column;
@@ -234,12 +235,12 @@ h4 {
   text-align: center;
 }
 
-/* line 233, ../scss/_main.scss */
+/* line 236, ../scss/_main.scss */
 .form_inner {
   position: relative;
 }
 
-/* line 237, ../scss/_main.scss */
+/* line 240, ../scss/_main.scss */
 .form__input {
   width: 100%;
   background: white;
@@ -255,13 +256,13 @@ h4 {
   transition: all .1s ease-out;
 }
 
-/* line 248, ../scss/_main.scss */
+/* line 251, ../scss/_main.scss */
 .newsletter {
   padding: 30px 0 40px;
   background: #F6EDE1;
 }
 
-/* line 253, ../scss/_main.scss */
+/* line 256, ../scss/_main.scss */
 .footer {
   background: #F5CFCA;
   padding: 15px 0;

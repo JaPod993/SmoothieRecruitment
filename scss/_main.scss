@@ -60,10 +60,13 @@ html, body {
   font-size: 16px;
 }
 
-input:focus,
-a:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.08rem $hover;
+button,
+input,
+a{
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.08rem $hero;
+  }
 }
 
 h1 {
