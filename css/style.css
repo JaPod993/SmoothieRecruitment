@@ -10,48 +10,99 @@ html, body {
 }
 
 /* line 57, ../scss/_main.scss */
+h1 {
+  font-family: "Bree Serif", sans-serif;
+  color: #F94851;
+  font-size: 64px;
+  line-height: 60px;
+  margin: 0 0 10px;
+}
+
+/* line 65, ../scss/_main.scss */
+h2 {
+  font-family: "Bree Serif", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 10px 0;
+}
+
+/* line 72, ../scss/_main.scss */
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFB76E;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+/* line 80, ../scss/_main.scss */
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+/* line 87, ../scss/_main.scss */
+.p-grey {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #707070;
+  margin: 10px 0;
+}
+
+/* line 93, ../scss/_main.scss */
+.p-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+/* line 98, ../scss/_main.scss */
 .txt-l {
   text-align: left;
 }
 
-/* line 61, ../scss/_main.scss */
+/* line 102, ../scss/_main.scss */
 .txt-r {
   text-align: right;
 }
 
-/* line 65, ../scss/_main.scss */
+/* line 106, ../scss/_main.scss */
 .txt-c {
   text-align: center;
 }
 
-/* line 69, ../scss/_main.scss */
+/* line 110, ../scss/_main.scss */
 .no-pad {
   padding: 0;
 }
 
-/* line 73, ../scss/_main.scss */
+/* line 114, ../scss/_main.scss */
 .no-pad-l {
   padding-left: 0;
 }
 
-/* line 77, ../scss/_main.scss */
+/* line 118, ../scss/_main.scss */
 .no-pad-r {
   padding-right: 0;
 }
 
-/* line 81, ../scss/_main.scss */
+/* line 122, ../scss/_main.scss */
 .img-center {
   display: block;
   margin: 0 auto;
 }
 
-/* line 86, ../scss/_main.scss */
+/* line 127, ../scss/_main.scss */
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
 
-/* line 92, ../scss/_main.scss */
+/* line 133, ../scss/_main.scss */
 .navigation {
   height: 80px;
   display: flex;
@@ -59,18 +110,18 @@ html, body {
   justify-content: center;
 }
 
-/* line 97, ../scss/_main.scss */
+/* line 138, ../scss/_main.scss */
 .menu__list {
   list-style-type: none;
   padding-left: 0;
 }
-/* line 100, ../scss/_main.scss */
+/* line 141, ../scss/_main.scss */
 .menu__list .list__item {
   display: inline-block;
   padding-left: 10px;
 }
 
-/* line 106, ../scss/_main.scss */
+/* line 147, ../scss/_main.scss */
 .menu__link {
   color: #707070;
   text-decoration: none;

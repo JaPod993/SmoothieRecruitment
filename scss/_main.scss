@@ -54,6 +54,47 @@ html, body {
   font-size: 16px;
 }
 
+h1 {
+  @include serifHeader;
+  color: $hero;
+  font-size: 64px;
+  line-height: 60px;
+  margin: 0 0 10px;
+}
+
+h2 {
+  @include serifHeader;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 10px 0;
+}
+
+h3 {
+  @include bold;
+  font-size: 20px;
+  color: $accent;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+h4 {
+  @include bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+.p-grey {
+  @include regular;
+  color: $txtGrey;
+  margin: 10px 0;
+}
+
+.p-black {
+  @include bold;
+  margin: 10px 0;
+}
+
 .txt-l {
   text-align: left;
 }
