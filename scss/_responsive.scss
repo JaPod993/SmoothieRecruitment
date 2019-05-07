@@ -1,5 +1,26 @@
 @media (min-width: 576px) {
-
+  html, body {
+    font-size: 18px;
+  }
+  .list__item {
+    padding-left: 15px;
+  }
+  h1 {
+    font-size: 120px;
+    line-height: 100px;
+    margin: 15px 0 40px;
+  }
+  h2 {
+    font-size: 44px;
+    line-height: 45px;
+  }
+  h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .header__p {
+    margin: 20px auto;
+  }
 }
 
 @media (min-width: 768px) {

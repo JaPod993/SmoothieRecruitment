@@ -265,3 +265,39 @@ h4 {
   background: #F5CFCA;
   padding: 15px 0;
 }
+
+@media (min-width: 576px) {
+  /* line 2, ../scss/_responsive.scss */
+  html, body {
+    font-size: 18px;
+  }
+
+  /* line 5, ../scss/_responsive.scss */
+  .list__item {
+    padding-left: 15px;
+  }
+
+  /* line 8, ../scss/_responsive.scss */
+  h1 {
+    font-size: 120px;
+    line-height: 100px;
+    margin: 15px 0 40px;
+  }
+
+  /* line 13, ../scss/_responsive.scss */
+  h2 {
+    font-size: 44px;
+    line-height: 45px;
+  }
+
+  /* line 17, ../scss/_responsive.scss */
+  h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  /* line 21, ../scss/_responsive.scss */
+  .header__p {
+    margin: 20px auto;
+  }
+}
