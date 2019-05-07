@@ -20,6 +20,31 @@ $txtBlack: #28292B;
   font-weight: 700;
 }
 
+@mixin transition {
+  -webkit-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+}
+
+@mixin flexVerticalCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin linkHover {
+  background-image: -webkit-linear-gradient(top, transparent 0, $hover 0);
+  background-image: -o-linear-gradient(top, transparent 0, $hover 0);
+  background-image: linear-gradient(to bottom, transparent 0, $hover 0);
+  @include transition;
+  background-position: 0 25px;
+  background-repeat: no-repeat;
+  font-weight: inherit;
+  &:hover {
+    background-position: 0 15px;
+  }
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -28,7 +53,6 @@ html, body {
   color: $txtBlack;
   font-size: 16px;
 }
-
 
 .txt-l {
   text-align: left;
@@ -62,4 +86,26 @@ html, body {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+
+.navigation {
+  height: 80px;
+  @include flexVerticalCenter;
+}
+
+.menu__list {
+  list-style-type: none;
+  padding-left: 0;
+  .list__item {
+    display: inline-block;
+    padding-left: 10px;
+  }
+}
+
+.menu__link {
+  color: $txtGrey;
+  text-decoration: none;
+  margin-bottom: 8px;
+  @include linkHover;
 }

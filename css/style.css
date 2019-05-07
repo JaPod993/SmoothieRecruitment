@@ -1,4 +1,4 @@
-/* line 23, ../scss/_main.scss */
+/* line 48, ../scss/_main.scss */
 html, body {
   margin: 0;
   padding: 0;
@@ -9,44 +9,83 @@ html, body {
   font-size: 16px;
 }
 
-/* line 33, ../scss/_main.scss */
+/* line 57, ../scss/_main.scss */
 .txt-l {
   text-align: left;
 }
 
-/* line 37, ../scss/_main.scss */
+/* line 61, ../scss/_main.scss */
 .txt-r {
   text-align: right;
 }
 
-/* line 41, ../scss/_main.scss */
+/* line 65, ../scss/_main.scss */
 .txt-c {
   text-align: center;
 }
 
-/* line 45, ../scss/_main.scss */
+/* line 69, ../scss/_main.scss */
 .no-pad {
   padding: 0;
 }
 
-/* line 49, ../scss/_main.scss */
+/* line 73, ../scss/_main.scss */
 .no-pad-l {
   padding-left: 0;
 }
 
-/* line 53, ../scss/_main.scss */
+/* line 77, ../scss/_main.scss */
 .no-pad-r {
   padding-right: 0;
 }
 
-/* line 57, ../scss/_main.scss */
+/* line 81, ../scss/_main.scss */
 .img-center {
   display: block;
   margin: 0 auto;
 }
 
-/* line 62, ../scss/_main.scss */
+/* line 86, ../scss/_main.scss */
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+/* line 92, ../scss/_main.scss */
+.navigation {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 97, ../scss/_main.scss */
+.menu__list {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* line 100, ../scss/_main.scss */
+.menu__list .list__item {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+/* line 106, ../scss/_main.scss */
+.menu__link {
+  color: #707070;
+  text-decoration: none;
+  margin-bottom: 8px;
+  background-image: -webkit-linear-gradient(top, transparent 0, #F3902C 0);
+  background-image: -o-linear-gradient(top, transparent 0, #F3902C 0);
+  background-image: linear-gradient(to bottom, transparent 0, #F3902C 0);
+  -webkit-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+  background-position: 0 25px;
+  background-repeat: no-repeat;
+  font-weight: inherit;
+}
+/* line 43, ../scss/_main.scss */
+.menu__link:hover {
+  background-position: 0 15px;
 }
