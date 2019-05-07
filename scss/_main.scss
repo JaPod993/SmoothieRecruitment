@@ -1,0 +1,21 @@
+$hero: #F94851;
+$accent: #FFB76E;
+$hover: #F3902C;
+$bg: #F6EDE1;
+$bgAccent: #F5CFCA;
+$txtGrey: #707070;
+$txtBlack: #28292B;
+
+@mixin serifHeader {
+  font-family: "Bree Serif", sans-serif;
+}
+
+@mixin regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+@mixin bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
