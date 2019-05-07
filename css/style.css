@@ -61,48 +61,76 @@ h4 {
 }
 
 /* line 98, ../scss/_main.scss */
+.btn {
+  border: 1px solid #707070;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0 5px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 130px;
+  cursor: pointer;
+  -webkit-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+}
+/* line 108, ../scss/_main.scss */
+.btn:hover {
+  background: #F3902C;
+  color: white;
+  border: 1px solid #F3902C;
+}
+
+/* line 115, ../scss/_main.scss */
+.btn--primary {
+  background: #FFB76E;
+  border: 1px solid #FFB76E;
+  color: white;
+}
+
+/* line 121, ../scss/_main.scss */
 .txt-l {
   text-align: left;
 }
 
-/* line 102, ../scss/_main.scss */
+/* line 125, ../scss/_main.scss */
 .txt-r {
   text-align: right;
 }
 
-/* line 106, ../scss/_main.scss */
+/* line 129, ../scss/_main.scss */
 .txt-c {
   text-align: center;
 }
 
-/* line 110, ../scss/_main.scss */
+/* line 133, ../scss/_main.scss */
 .no-pad {
   padding: 0;
 }
 
-/* line 114, ../scss/_main.scss */
+/* line 137, ../scss/_main.scss */
 .no-pad-l {
   padding-left: 0;
 }
 
-/* line 118, ../scss/_main.scss */
+/* line 141, ../scss/_main.scss */
 .no-pad-r {
   padding-right: 0;
 }
 
-/* line 122, ../scss/_main.scss */
+/* line 145, ../scss/_main.scss */
 .img-center {
   display: block;
   margin: 0 auto;
 }
 
-/* line 127, ../scss/_main.scss */
+/* line 150, ../scss/_main.scss */
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
 
-/* line 133, ../scss/_main.scss */
+/* line 156, ../scss/_main.scss */
 .navigation {
   height: 80px;
   display: flex;
@@ -110,18 +138,18 @@ h4 {
   justify-content: center;
 }
 
-/* line 138, ../scss/_main.scss */
+/* line 161, ../scss/_main.scss */
 .menu__list {
   list-style-type: none;
   padding-left: 0;
 }
-/* line 141, ../scss/_main.scss */
+/* line 164, ../scss/_main.scss */
 .menu__list .list__item {
   display: inline-block;
   padding-left: 10px;
 }
 
-/* line 147, ../scss/_main.scss */
+/* line 170, ../scss/_main.scss */
 .menu__link {
   color: #707070;
   text-decoration: none;
@@ -139,4 +167,27 @@ h4 {
 /* line 43, ../scss/_main.scss */
 .menu__link:hover {
   background-position: 0 15px;
+}
+
+/* line 177, ../scss/_main.scss */
+.hero__desktop {
+  display: none;
+}
+
+/* line 181, ../scss/_main.scss */
+.header {
+  padding-bottom: 20px;
+}
+
+/* line 185, ../scss/_main.scss */
+.header__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 189, ../scss/_main.scss */
+.header__p {
+  max-width: 650px;
+  margin: 10px auto 15px;
 }

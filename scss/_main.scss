@@ -95,6 +95,29 @@ h4 {
   margin: 10px 0;
 }
 
+.btn {
+  border: 1px solid $txtGrey;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0 5px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 130px;
+  cursor: pointer;
+  @include transition;
+  &:hover {
+    background: $hover;
+    color: white;
+    border: 1px solid $hover;
+  }
+}
+
+.btn--primary {
+  background: $accent;
+  border: 1px solid $accent;
+  color: white;
+}
+
 .txt-l {
   text-align: left;
 }
@@ -149,4 +172,21 @@ h4 {
   text-decoration: none;
   margin-bottom: 8px;
   @include linkHover;
+}
+
+.hero__desktop {
+  display: none;
+}
+
+.header {
+  padding-bottom: 20px;
+}
+
+.header__info {
+  @include flexVerticalCenter;
+}
+
+.header__p {
+  max-width: 650px;
+  margin: 10px auto 15px;
 }
